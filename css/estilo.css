@@ -136,6 +136,20 @@ a {
   color: #850d53;
 }
 
+.custom-navbar {
+  background-color: #6a0dad; /* Fondo violeta */
+  .navbar-brand, .nav-link {
+    color: #fff !important; /* Texto blanco */
+    &:hover {
+      color: #ffca28 !important; /* Color dorado al pasar el cursor */
+    }
+  }
+
+  .navbar-toggler {
+    background-color: #ffca28; /* Botón hamburguesa dorado */
+    border: none;
+  }
+}
 
 
 
