@@ -1,0 +1,33 @@
+/css
+  /scss
+    _variables.scss {
+        $primary-color: #25043d;
+        $secondary-color: #fff;
+        $font-stack: 'Arial', sans-serif;
+    }
+
+
+    _mixins.scss {
+        @mixin flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+    }
+    
+    estilo.scss {
+        @import 'variables';
+@import 'mixins';
+
+body {
+  font-family: $font-stack;
+  background-color: $primary-color;
+  color: $secondary-color;
+}
+.header {
+  @include flex-center;
+  background-color: darken($primary-color, 10%);
+}
+    }
+    
