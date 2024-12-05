@@ -146,7 +146,7 @@ a {
   }
 
   .navbar-toggler {
-    background-color: #a85ab3; /* Botón hamburguesa dorado */
+    background-color: #a85ab3; 
     border: none;
   }
 }
@@ -165,7 +165,7 @@ a {
     }
   }
 
-  /* Estilo del botón hamburguesa */
+ 
   .navbar-toggler {
     background-color:  #a85ab3;
     border: none;
