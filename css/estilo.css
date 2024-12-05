@@ -218,11 +218,7 @@ a {
 
 /* Archivo estilo.css */
 
-/* General */
-header, footer {
-  background-color: #333;
-  color: white;
-}
+
 
 /* Ajustes específicos para móviles */
 @media (max-width: 768px) {
