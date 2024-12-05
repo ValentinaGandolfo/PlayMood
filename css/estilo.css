@@ -236,6 +236,17 @@ a {
   }
 }
 
+/* Evitar scroll horizontal */
+body {
+  overflow-x: hidden;
+  margin: 0; /* Asegúrate de que no haya márgenes no deseados */
+}
+
+/* Prevenir desbordamiento de elementos */
+* {
+  box-sizing: border-box;
+}
+
 
 .nav-item{
   margin: 2px;
