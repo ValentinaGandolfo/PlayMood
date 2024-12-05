@@ -246,10 +246,6 @@ body {
 * {
   box-sizing: border-box;
 }
-/* Detectar elementos que desbordan */
-* {
-  outline: 1px solid red;
-}
 
 
 .nav-item{
