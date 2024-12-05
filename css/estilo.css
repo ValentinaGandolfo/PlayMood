@@ -185,6 +185,11 @@ a {
 
 /* Para pantallas menores a 768px */
 @media (max-width: 768px) {
+  .navbar-toggler { 
+    font-size: 1rem; /* Ajuste de texto más pequeño en móviles */
+    text-align: center; /* Centrar enlaces */
+    margin-bottom: 2px;
+  }
   .header {
     text-align: center;
   }
