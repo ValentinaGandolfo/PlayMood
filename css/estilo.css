@@ -198,6 +198,23 @@ a {
   }
 }
 
+/* Cambiar color de fondo cuando se despliega en móvil */
+.navbar-collapse.show {
+  background-color: #f8f9fa; /* Cambia este color según prefieras */
+  padding: 10px; /* Opcional, ajusta el espaciado interno */
+}
+
+/* Opcional: Reducir el espaciado entre elementos en dispositivos móviles */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin-bottom: 5px; /* Reduce el espaciado vertical */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 8px 15px; /* Reduce el relleno de los enlaces */
+  }
+}
+
 
 
 .nav-link {
