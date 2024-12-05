@@ -207,7 +207,7 @@ a {
 /* Opcional: Reducir el espaciado entre elementos en dispositivos móviles */
 @media (max-width: 768px) {
   .navbar-nav .nav-item {
-    margin-bottom: 5px; /* Reduce el espaciado vertical */
+    margin-bottom: 2px; /* Reduce el espaciado vertical */
   }
 
   .navbar-nav .nav-link {
