@@ -216,8 +216,6 @@ a {
   }
 }
 
-/* Archivo estilo.css */
-
 
 
 /* Ajustes específicos para móviles */
@@ -232,7 +230,7 @@ a {
   }
 
   .footer-nav a {
-      display: block; /* Los enlaces ocupan toda la línea */
+      
       margin: 10px auto;
       width: 80%; /* Centrado */
       text-align: center;
