@@ -200,7 +200,7 @@ a {
 
 /* Cambiar color de fondo cuando se despliega en móvil */
 .navbar-collapse.show {
-  background-color: #49097e; /* Cambia este color según prefieras */
+  background-color: #6a0dad; /* Cambia este color según prefieras */
   padding: 10px; /* Opcional, ajusta el espaciado interno */
 }
 
