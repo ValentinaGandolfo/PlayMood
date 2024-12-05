@@ -137,11 +137,11 @@ a {
 }
 
 .custom-navbar {
-  background-color: #6a0dad; /* Fondo violeta */
+  background-color: #6a0dad;
   .navbar-brand, .nav-link {
-    color: #fff !important; /* Texto blanco */
+    color: #fff !important; 
     &:hover {
-      color: #ffca28 !important; /* Color dorado al pasar el cursor */
+      color: #ffca28 !important; 
     }
   }
 
@@ -152,16 +152,16 @@ a {
 }
 
 .custom-navbar {
-  background-color: #6a0dad; /* Fondo violeta */
+  background-color: #6a0dad; 
   padding: 0.5rem 1rem;
 
-  /* Aplica estilos a los enlaces */
+
   .navbar-brand,
   .nav-link {
-    color: #fff !important; /* Texto blanco */
-    font-size: 1.1rem; /* Ajuste de tamaño de texto */
+    color: #fff !important; 
+    font-size: 1.1rem;
     &:hover {
-      color: #ffca28 !important; /* Color dorado al pasar el cursor */
+      color: #ffca28 !important; 
     }
   }
 
@@ -171,14 +171,14 @@ a {
     border: none;
   }
 
-  /* Ajustes específicos para pantallas pequeñas */
+
   @media (max-width: 768px) {
     .nav-link .navbar-toggler {
-      font-size: 1rem; /* Ajuste de texto más pequeño en móviles */
-      text-align: center; /* Centrar enlaces */
+      font-size: 1rem; 
+      text-align: center; 
     }
     .navbar {
-      padding: 1rem; /* Más espacio en móviles */
+      padding: 1rem; 
     }
   }
 }
@@ -200,28 +200,28 @@ a {
 }
 
 
-/* Cambiar color de fondo cuando se despliega en móvil */
+
 .navbar-collapse.show {
-  background-color: #6a0dad; /* Cambia este color según prefieras */
-  padding: 10px; /* Opcional, ajusta el espaciado interno */
+  background-color: #6a0dad; 
+  padding: 10px; 
 }
 
-/* Opcional: Reducir el espaciado entre elementos en dispositivos móviles */
+
 @media (max-width: 768px) {
   .navbar-nav .nav-item .navbar-toggler{
-    margin-bottom: 2px; /* Reduce el espaciado vertical */
+    margin-bottom: 2px; 
   }
 
   .navbar-nav .nav-link .navbar-toggler {
-    padding: 8px 10px; /* Reduce el relleno de los enlaces */
+    padding: 8px 10px; 
   }
 }
 
 
-/* Ajustes específicos para móviles */
+
 @media (max-width: 768px) {
   .playmood {
-      font-size: 50px; /* Ajusta tamaño del título */
+      font-size: 50px; 
   }
 
   .videojuegos {
@@ -232,18 +232,18 @@ a {
   .footer-nav a .footer-nav a:hover{
       
       margin: 10px auto;
-      width: 80%; /* Centrado */
+      width: 80%; 
       text-align: center;
   }
 }
 
-/* Evitar scroll horizontal */
+
 body {
   overflow-x: hidden;
-  margin: 0; /* Asegúrate de que no haya márgenes no deseados */
+  margin: 0; 
 }
 
-/* Prevenir desbordamiento de elementos */
+
 * {
   box-sizing: border-box;
 }
