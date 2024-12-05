@@ -217,6 +217,24 @@ a {
 }
 
 
+/* Ajustes específicos para móviles */
+@media (max-width: 768px) {
+  .playmood {
+      font-size: 50px; /* Ajusta tamaño del título */
+  }
+
+  .videojuegos {
+      font-size: 25px;
+      padding: 10px;
+  }
+
+  .footer-nav a .footer-nav a:hover{
+      
+      margin: 10px auto;
+      width: 80%; /* Centrado */
+      text-align: center;
+  }
+}
 
 
 .nav-item{
