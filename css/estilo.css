@@ -198,9 +198,7 @@ a {
     font-size: 14px;
   }
 }
-.navbar-collapse {
-  display: none !important; /* Asegura que la barra no esté abierta inicialmente */
-}
+
 
 /* Cambiar color de fondo cuando se despliega en móvil */
 .navbar-collapse.show {
