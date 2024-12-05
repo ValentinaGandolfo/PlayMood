@@ -189,7 +189,7 @@ a {
   .header {
     text-align: center;
   }
-  .product-item img {
+  .product-item img .navbar-toggler {
     max-width: 100%;
     height: auto;
   }
@@ -211,7 +211,7 @@ a {
     margin-bottom: 2px; /* Reduce el espaciado vertical */
   }
 
-  .navbar-nav .nav-link {
+  .navbar-nav .nav-link .navbar-toggler {
     padding: 8px 10px; /* Reduce el relleno de los enlaces */
   }
 }
