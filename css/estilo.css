@@ -151,6 +151,38 @@ a {
   }
 }
 
+.custom-navbar {
+  background-color: #6a0dad; /* Fondo violeta */
+  padding: 0.5rem 1rem;
+
+  /* Aplica estilos a los enlaces */
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important; /* Texto blanco */
+    font-size: 1.1rem; /* Ajuste de tamaño de texto */
+    &:hover {
+      color: #ffca28 !important; /* Color dorado al pasar el cursor */
+    }
+  }
+
+  /* Estilo del botón hamburguesa */
+  .navbar-toggler {
+    background-color: #ffca28;
+    border: none;
+  }
+
+  /* Ajustes específicos para pantallas pequeñas */
+  @media (max-width: 768px) {
+    .nav-link {
+      font-size: 1rem; /* Ajuste de texto más pequeño en móviles */
+      text-align: center; /* Centrar enlaces */
+    }
+    .navbar {
+      padding: 1rem; /* Más espacio en móviles */
+    }
+  }
+}
+
 
 
 
