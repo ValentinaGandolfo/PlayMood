@@ -183,6 +183,20 @@ a {
   }
 }
 
+/* Para pantallas menores a 768px */
+@media (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .textoproducto {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
 
 
 
