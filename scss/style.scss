@@ -31,3 +31,28 @@ body {
 }
     }
     
+// Variables
+$primary-color: rgb(128, 0, 128);
+$secondary-color: #57124e;
+$text-color: #333;
+
+// Uso de las variables
+body {
+  background-color: $primary-color;
+  color: $text-color;
+}
+
+.header {
+  background-color: $secondary-color;
+  padding: 20px;
+}
+
+button {
+  background-color: $secondary-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
