@@ -38,12 +38,11 @@ $text-color: #333;
 
 // Uso de las variables
 body {
-  background-color: $primary-color;
   color: $text-color;
 }
 
 .header {
-  background-color: $secondary-color;
+  
   padding: 20px;
 }
 
