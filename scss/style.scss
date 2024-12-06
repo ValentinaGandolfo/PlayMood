@@ -1,54 +1,9 @@
 
 
-// Variables
-$primary-color: #602074;
-$secondary-color: #97338f;
-$text-color: #b6b3b3;
+$primary-color: #672083;
+$secondary-color: #742e64;
+$text-color: #acacac;
 $font-stack: 'Arial, sans-serif';
 $default-padding: 20px;
-
-// Mixins
-@mixin flex-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@mixin box-shadow($color, $blur) {
-  box-shadow: 0px 4px $blur $color;
-}
-
-// Global styles
-body {
-  font-family: $font-stack;
-  color: $text-color;
-}
-
-// Modular Components
-h1, h2, h3 {
-  margin-bottom: $default-padding;
-}
-
-.button {
-  background-image: url("../index/tumblr_13d2c753eed929097cc13bbb1d3e482c_ae238518_2048.webp");
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  @include box-shadow(rgba(0, 0, 0, 0.1), 5px);
-
-  &:hover {
-    background-image: url("../index/tumblr_13d2c753eed929097cc13bbb1d3e482c_ae238518_2048.webp");
-    cursor: pointer;
-  }
-}
-
-.card {
-  background-image: url("../index/tumblr_13d2c753eed929097cc13bbb1d3e482c_ae238518_2048.webp");
-  border-radius: 10px;
-  padding: $default-padding;
-  @include box-shadow(rgba(0, 0, 0, 0.1), 5px);
-  margin-bottom: $default-padding;
-}
 
 
