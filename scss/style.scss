@@ -38,13 +38,13 @@ h1, h2, h3 {
   @include box-shadow(rgba(0, 0, 0, 0.1), 5px);
 
   &:hover {
-    background-color: $secondary-color;
+    background-image: url("../index/tumblr_13d2c753eed929097cc13bbb1d3e482c_ae238518_2048.webp");
     cursor: pointer;
   }
 }
 
 .card {
-  background-color: white;
+  background-image: url("../index/tumblr_13d2c753eed929097cc13bbb1d3e482c_ae238518_2048.webp");
   border-radius: 10px;
   padding: $default-padding;
   @include box-shadow(rgba(0, 0, 0, 0.1), 5px);
