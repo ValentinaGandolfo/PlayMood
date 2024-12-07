@@ -75,6 +75,14 @@
   border-radius: 5px;
 }
 
+.logoplay{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 90px; 
+  height: auto; 
+  margin: 10px; 
+}
 /* inicio */
 li {
   padding: 10px;
