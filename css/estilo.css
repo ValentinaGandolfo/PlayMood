@@ -356,7 +356,15 @@ h4 {
   background-color: rgba(80, 4, 110, 0.658);
 }
 
-
+.textoproducto {
+  color: aliceblue;
+  margin: 30px;
+  text-align: center;
+  padding: 15px;
+  font-size: 20px;
+  border: #ad50f0;
+  background-color: rgba(0, 255, 234, 0.521);
+}
 
 
 
