@@ -98,6 +98,22 @@ a {
   padding: 10px;
 }
 
+.bienvenidos{
+  color: white;
+}
+
+.ultimas{
+  color: white;
+}
+
+.detalladas{
+  color: white;
+}
+
+.guias{
+  color: white;
+}
+
 .nav {
   width: 90%;
   height: 100px;
@@ -184,7 +200,6 @@ a {
   }
 }
 
-/* Para pantallas menores a 768px */
 @media (max-width: 768px) {
   
   .header {
@@ -339,7 +354,15 @@ h4 {
   background-color: #7908085e;
 }
 
+.product-description {
+  font-size: 1rem;
+  color: #ffffff;
+}
+.tituloproduct{
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
 
 .titulo {
   margin-top: 9px;
