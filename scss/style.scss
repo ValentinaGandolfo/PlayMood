@@ -1,8 +1,22 @@
-$primary-background:  url("../index/tumblr_13d2c753eed929097cc13bbb1d3e482c_ae238518_2048.webp") ;
-$secundary-color: image-set(url(../index/fondoweb1.png)) ;
+// _variables.scss
+$primary-color: white; 
+$secondary-color: black; 
+$font-family-main: 'Arial', sans-serif;
+$spacing-unit: 1rem;
 
+// style.scss 
+section {
+    color: $primary-color;
+    h2{  
+        color: $primary-color;
+        font-family: ;$font-family-main
+        p{ 
+            color: $secondary-color; 
+            font-family: $font-family-main;
 
-
+        }
+    }
+}
 h2{ 
     color: white; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
