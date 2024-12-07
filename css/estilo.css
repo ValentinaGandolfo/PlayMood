@@ -274,48 +274,7 @@ h4 {
   background-image: image-set(url(../index/fondoweb1.png));
 }
 
-.bienvenidos {
-  color: aliceblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: oblique;
-  font-size: 35px;
-  text-align: center;
-  margin: 20px;
-  padding: 15px;
-}
 
-.ultimas {
-  color: aliceblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  text-align: right center;
-  margin: 10px;
-  padding: 15px;
-  border: 10px;
-  border-color: darkred;
-}
-
-.guias {
-  color: aliceblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  text-align: right center;
-  margin: 10px;
-  padding: 15px;
-  border: 10px;
-  border-color: darkred;
-}
-
-.detalladas {
-  color: aliceblue;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  text-align: right center;
-  margin: 10px;
-  padding: 15px;
-  border: 10px;
-  border-color: darkred;
-}
 
 p {
   font-family: cursive;

@@ -1,3 +1,15 @@
+$primary-color: rgb(208, 197, 211); 
 
+
+h2{ 
+    color: $primary-color;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: right center;
+  margin: 10px;
+  padding: 15px;
+  border: 10px;
+  border-color: darkred;
+}
 
 
