@@ -10,31 +10,23 @@ section {
     h2{  
         color: $primary-color;
         font-family:$font-family-main;
+        font-size: 20px;
+        text-align: right center;
+        margin: 10px;
+        padding: 15px;
+        border: 10px;
+        border-color: darkred;
+        
         p{ 
             color: $secondary-color; 
             font-family: $font-family-main;
+            font-size: 20px;
+            margin: 15px;
+            padding: 15px;
 
         }
     }
 }
-h2{ 
-    color: white; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  text-align: right center;
-  margin: 10px;
-  padding: 15px;
-  border: 10px;
-  border-color: darkred;
-}
 
-
-p {
-    color: black;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    margin: 15px;
-    padding: 15px;
-  }
 
 
